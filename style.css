@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 
 #canv {
     background-color: lightblue;
@@ -8,13 +6,17 @@
     height: 480px;
     display: flex;
     flex-wrap: wrap;
+    border: solid;
+    border-width: 10px;
 }
 
+.black {
+    background-color: black;
+}
 
 .drawbox {
-    width: 30px;
-    height: 30px;
     background-color: white;
-    border: solid;
     flex: 1 1 auto;
+    /*width:30px;
+    height:30px;*/
 }
