@@ -1,3 +1,20 @@
-h1 {
-    color: green;
+*{
+    box-sizing: border-box;
+}
+
+#canv {
+    background-color: lightblue;
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.drawbox {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: solid;
+    flex: 1 1 auto;
 }
