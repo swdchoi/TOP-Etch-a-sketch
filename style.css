@@ -1,12 +1,46 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+}
 
+button {
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bod {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.backg{
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #canv {
-    background-color: lightblue;
+    background-color: white;
     width: 480px;
     height: 480px;
     display: flex;
     flex-wrap: wrap;
-    border: solid;
     border-width: 10px;
 }
 
@@ -19,4 +53,30 @@
     flex: 1 1 auto;
     /*width:30px;
     height:30px;*/
+}
+
+#customSize{
+    border:solid;
+}
+
+.edits {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.canSize {
+    display: flex;
+    gap: 10px;
+}
+
+.canColor{
+    display: flex;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
 }
